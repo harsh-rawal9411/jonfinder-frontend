@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://jobfinder-backend-9et8.onrender.com",
   headers: { "Content-Type": "application/json" }
 });
 
